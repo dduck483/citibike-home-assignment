@@ -5,6 +5,7 @@ How to set up and run the pipeline:
 ● Pre-requisuites: Install latest version of python via python.org
 Install: pip for python via cmd python3 -m pip install
 Package required to run python scripts: duckdb, Path, requests, pandas via cmd: pip install <packagename>
+Download the citibike data file here: https://s3.amazonaws.com/tripdata/2014-citibike-tripdata.zip and store in the path suitable for downloads. I.e. /Users/<YourUser>/Downloads/rootproject/data/2014-citibike-tripdata
 
 Briefly explain how you approached the problem:
 
