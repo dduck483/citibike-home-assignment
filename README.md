@@ -19,6 +19,8 @@ How you think we can improve this challenge:
 
 ● The challenge should be tailored to the data set for the exact data set to match the questions.
 
+PART A:
+
 Written answers to the technical questions listed below:
 
 1. If we keep policy records in JSONB format, what are the trade-offs compared to using a
@@ -62,3 +64,16 @@ Type 2 Slowing Changing Dimension should have two key columns.
 
  - An "effective_date" column: The column indicates is the current record is still active. Depending on the use case, this could either NULL or have a such as "1900-01-01".
  - The "is_current" column. This column indicates if records are current. In theory, there should be only one unique policy id with a "Y" flag stating the record is current for a particular policy.
+
+
+PART B:
+
+1. Refer to B1 - Trips By Day Per Product.sql file
+2. Refer to B2 - Premium Per Day.sql file
+3. Refer to B3 - Daily Rainfal Trips.sql
+4. Refer to B4 - Different Season Rate.sql
+
+PART C:
+
+1. Refer to C1 - fact_trip.sql file
+2. Refer to C2 - aggregated_exposure_daily.sql file
